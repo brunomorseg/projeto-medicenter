@@ -329,7 +329,7 @@ section#img1 {
     display: flex;
     width: 660px;
     flex-wrap: wrap;
-    height: auto;
+    
     
     
     
@@ -344,14 +344,25 @@ section#img1 {
 
 .inside {
     font-family: 'Open Sans', sans-serif;
-    flex: 1;
+    margin-right: 10px;
+    min-width: 300px;
+    
 }
 
-.inside img {
-    width: 280px;
+.inside a {
+    text-decoration: none;
 }
 
-.footer_container{
+.inside .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    height: auto;
+}
+
+.footer_container , .footer_container_2{
     display: flex;
     flex-direction: column;
     width: 990px;
@@ -378,15 +389,56 @@ section#img1 {
    
 }
 
+.footer_foot {
+    display:flex; 
+    justify-content:space-between;
+    max-width: 900px;
+}
+
+.footer_1_container{
+    display: flex;
+
+}
+
+.footer_1_container {
+    width: 990px;
+}
+
+.footer_1_container_1, .footer_1_container_2, .footer_1_container_3{
+    flex: 1;
+    color: #FFF;
+    padding: 20px;
+   
+}
+
+.footer_1_container_1 {
+   
+    background-color: #36a9e1;
+}
+
+.footer_1_container_2 {
+    
+    background-color: #0384CE;
+}
+
+.footer_1_container_3 {
+   
+    background-color: #3156A3;
+}
 
 
+@media (max-width:775px) {
+ 
 
-@media (max-width:770px) {
     #baixo {
-        height: auto;
-        width: auto;
-        flex-direction: column;
+    height: auto;
+    width: 754px;
+    flex-direction: column;
+}
+    .container {
+        width: 100%;
     }
+
 
     #cima {
         height: auto;
@@ -446,7 +498,7 @@ section#img1 {
 
     .testando2 {
         flex: 2;
-        margin-left: 30px;
+        
     }
 
     #inside_banner {
@@ -462,4 +514,185 @@ section#img1 {
     .inside img {
         width:200px ;
     }
+
+    .footer_ul {
+        width: 88%;
+    }
+
+
+
+   
+
+    .responsa {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+
+    .testewid {
+        width: 200px;
+        padding-left: 20px;
+    }
+
+    .footer_container {
+        max-width: 750px;
+    }
+
+    .footer_div_text {
+        flex-direction: column;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_1_container {
+        width: 100%;
+    }
+    .footer_container_2 {
+        width: 100%;
+    }
 }
+
+
+@media (max-width:450px) {
+    
+    #baixo {
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+   
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .widget_title h1 {
+        text-align: center;
+     
+    }
+    .widget_bar {
+        margin-left: 150px;
+    }
+
+    #inside_banner {
+        justify-content: center;
+     
+    }
+
+    .wid_body {
+        width: 120px;
+        height: 120px;
+    }
+
+    .widget_body {
+        width: 400px;
+    }
+
+    .widget2 {
+        width: 400px;
+    }
+
+    .menu {
+        width: 230px;
+    }
+
+    .footer_div_text {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .footer_ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footer_container {
+        max-width: 425px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .testando2 {
+        flex: 2;
+        /* margin-left: 30px; */
+    }
+
+}
+
+
+@media (max-width:375px) {
+
+
+ 
+.footer_container {  
+    max-width: 375px;
+        
+}
+
+.footer_1_container {
+    flex-direction: column;
+}
+
+.separa {
+    width: 350px;
+}
+
+.testando2 {
+    flex: 2;
+    margin-left: none;
+    width: 100%;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.wid_body {
+    width: 110px;
+    height: 110px;
+}
+
+.widget {
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 370px;
+}
+
+.widget2 {
+    width: 350px;
+}
+
+.widget_body {
+    width: 350px;
+    justify-content: center;
+}
+
+nav ul {
+    width: 220px;
+}
+
+#inside_banner {
+    width: 375px;
+}
+
+}
+
