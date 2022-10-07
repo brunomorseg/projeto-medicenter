@@ -595,6 +595,12 @@ footer {
         width: 400px;
     }
 
+    .widget {
+        justify-content: center;
+        align-items: center;
+
+    }
+
     .menu {
         width: 230px;
     }
@@ -643,7 +649,7 @@ footer {
 
  
 .footer_container {  
-    max-width: 375px;
+    max-width: 340px;
         
 }
 
@@ -704,3 +710,109 @@ nav ul {
 
 }
 
+@media (max-width:360px) {
+
+.logo {
+    width: 125px;
+    margin-left: 25px;
+}
+
+.logo a {
+    width: 100px;
+}
+
+.menu {
+    width:182px;
+}
+
+nav {
+    width: 90%;
+}
+
+nav ul {
+
+    width: 82%;
+    padding-left: 33px;
+}
+
+
+header {
+    height: 180px;
+}
+
+#cima div {
+    width: 300px;
+    height: 225px;
+}
+
+#inside_banner {
+    width: 310px;
+}
+
+#cima h1 {
+    font-size: 30px;
+    margin-top:50px;
+}
+.footer_container {
+    max-width: 310px;
+}
+
+.widget2 {
+    width: 310px;
+}
+
+.separa {
+    width: 310px;
+}
+
+.widget {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 310px;
+}
+
+.widget_body {
+    width: 310px;
+    justify-content: center;
+}
+
+.footer_foot {
+    width: auto;
+}
+
+.conta {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 220px;
+}
+
+.menu {
+    width: 220px;
+
+    display: flex;
+}
+.finale {
+    width: 210px;
+}
+
+#finale2 {
+    width: 290px;
+}
+
+
+
+.testewid > p {
+    width: 190px;
+    
+}
+
+.footer_div_text {
+ font-size: 11px;
+}
+
+}
