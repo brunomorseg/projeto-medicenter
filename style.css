@@ -331,8 +331,6 @@ section#img1 {
     flex-wrap: wrap;
     
     
-    
-    
 }
 
 #inside_banner > div {
@@ -693,7 +691,15 @@ nav ul {
 }
 
 #inside_banner {
-    width: 375px;
+    width: 339px;
+}
+
+#inside_banner p {
+    margin: 0;
+}
+
+.menu {
+    width: 220px;
 }
 
 }
