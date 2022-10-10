@@ -555,7 +555,7 @@ footer {
 }
 
 
-@media (max-width:450px) {
+@media (max-width:420px) {
     
     #baixo {
         height: auto;
@@ -579,7 +579,7 @@ footer {
 
     #inside_banner {
         justify-content: center;
-     
+        width: auto;
     }
 
     .wid_body {
@@ -602,7 +602,11 @@ footer {
     }
 
     .menu {
-        width: 230px;
+        flex: 2;
+    }
+
+    .logo {
+        flex: 1;
     }
 
     .footer_div_text {
@@ -631,7 +635,8 @@ footer {
     }
 
     .logo img {
-        width: 150px;
+        width: 130px;
+        padding-left: 5px;
     }
 
     .testando2 {
@@ -639,12 +644,14 @@ footer {
         /* margin-left: 30px; */
     }
 
-   
+    section.testando1 {
+        width: 400px;
+    }
 
 }
 
 
-@media (max-width:351px) {
+@media (max-width:360px) {
 
     .conta {
         flex-direction: column;
@@ -662,7 +669,7 @@ footer {
     }
 
     nav ul {
-        width: 202px;
+        width: auto;
     }
  
 .footer_container {  
