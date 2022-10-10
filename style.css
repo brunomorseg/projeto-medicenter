@@ -646,7 +646,24 @@ footer {
 
 @media (max-width:351px) {
 
+    .conta {
+        flex-direction: column;
+    }
 
+    .logo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul {
+        width: 202px;
+    }
  
 .footer_container {  
     max-width: 340px;
@@ -692,9 +709,6 @@ footer {
     justify-content: center;
 }
 
-nav ul {
-    width: 220px;
-}
 
 #inside_banner {
     width: 339px;
@@ -704,9 +718,8 @@ nav ul {
     margin: 0;
 }
 
-.menu {
-    width: 220px;
-}
+.testando1 {}
+
 
 }
 
