@@ -644,7 +644,7 @@ footer {
 }
 
 
-@media (max-width:375px) {
+@media (max-width:370px) {
 
 
  
@@ -710,7 +710,7 @@ nav ul {
 
 }
 
-@media (max-width:360px) {
+@media (max-width:350px) {
 
 .logo {
     width: 125px;
@@ -838,4 +838,38 @@ header {
     font-size: 11px;
     }
 
+}
+
+@media (max-width:280px) {
+
+    #cima div {
+        width: auto;
+        height: 225px;
+    }
+
+    #cima div h1 {
+        font-size: 25px;
+    }
+
+    .widget_title h1 {
+        text-align: center;
+        padding-top: 10px;
+        width: auto;
+        
+
+    }
+
+    section.testando1 {
+        width: 280px;
+    }
+
+    .widget {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 280px;
+    }
+
+    .news_thumbnail {
+
+    }
 }
