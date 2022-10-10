@@ -816,3 +816,26 @@ header {
 }
 
 }
+
+
+
+@media (max-width:320px) {
+
+    #finale {
+        flex: 1;
+    }
+
+    #finale2 {
+        flex: 2;
+    }
+
+  .ultra_li {
+    display: flex;
+    justify-content: left;
+      }
+    .last {
+    width: 280px;
+    font-size: 11px;
+    }
+
+}
