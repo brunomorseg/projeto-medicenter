@@ -424,6 +424,36 @@ footer {
     background-color: #3156A3;
 }
 
+@media (max-width:990px) {
+    .footer_container, .footer_container_2 {
+        
+        width: auto;
+    }
+
+    .footer_1_container {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .footer_div_text {
+        flex-direction: column;
+    }
+
+    .footer_div_text {
+        flex-direction: column;
+    }
+
+    #baixo {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .container2 {
+        width: auto;
+        flex-direction: column;
+    }
+}
+
 @media (max-width:820px) {
     #baixo {
         height: auto;
@@ -653,11 +683,11 @@ footer {
     }
 
     .widget_body {
-        width: 400px;
+        width: 300px;
     }
 
     .widget2 {
-        width: 400px;
+        width: 300px;
     }
 
     .widget {
